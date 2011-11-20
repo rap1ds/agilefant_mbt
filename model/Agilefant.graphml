@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.8-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d7"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d8"/>
+  <key for="edge" id="d9" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="43.224609375" x="831.8571397569444" y="0.0"/>
+          <y:Fill color="#00FF00" color2="#CCFFCC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="33.224609375" x="5.0" y="5.3447265625">Start</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="121.86572265625" x="792.5365831163194" y="220.0"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="111.86572265625" x="5.0" y="5.3447265625">v_BrowserStarted</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="45.8525390625" width="62.0771484375" x="822.4308702256944" y="330.0"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="52.0771484375" x="5.0" y="13.27099609375">v_Login</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="128.8544921875" x="789.0421983506944" y="110.0"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="118.8544921875" x="5.0" y="5.3447265625">v_BrowserStopped</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="45.8525390625" width="175.92236328125" x="907.9868342323908" y="675.8525390625"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="34.62109375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="165.92236328125" x="5.0" y="5.61572265625">v_AgilefantProjectBacklog
+REQTAG=Login</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="45.8525390625" width="147.95458984375" x="496.8298479352678" y="921.705078125"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="137.95458984375" x="5.0" y="13.27099609375">v_CreateNewIteration</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="45.8525390625" width="170.05078125" x="120.00000620039683" y="1121.8692251054067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="160.05078125" x="5.0" y="13.27099609375">v_VerifyIterationCreation</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="126.89306640625" x="900.7780699714782" y="929.63134765625"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="116.89306640625" x="5.0" y="5.3447265625">v_CreateNewStory</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="45.8525390625" width="213.95751953125" x="530.0510021391369" y="1121.8692251054067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="203.95751953125" x="5.0" y="13.27099609375">v_VerifyStoryCreationToBacklog</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="45.8525390625" width="218.216796875" x="984.0086650545634" y="1121.8692251054067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="208.216796875" x="5.0" y="13.27099609375">v_VerifyStoryCreationToIteration</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="190.337890625" x="1520.3104197668652" y="929.63134765625"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="180.337890625" x="5.0" y="5.3447265625">v_ProjectMainPageStoryTree</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="199.28173828125" x="1442.2257975260416" y="1129.7954946366567"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="189.28173828125" x="5.0" y="5.3447265625">v_ProjectMainPageLeafStories</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="172.1328125" x="1881.5078000992064" y="1129.7954946366567"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="162.1328125" x="5.0" y="5.3447265625">v_BacklogStoryInfoPopup</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="147.5546875" x="1856.9083705357143" y="1247.7217641679067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="137.5546875" x="5.0" y="5.3447265625">v_StoryBacklogPopup</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="192.0009765625" x="1960.1574482266865" y="1357.7217641679067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="182.0009765625" x="5.0" y="5.3447265625">v_VerifyStoryBacklogChange</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="189.322265625" x="1399.874978298611" y="1247.7217641679067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="179.322265625" x="5.0" y="5.3447265625">v_BacklogSelectionAvailable</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="192.0009765625" x="1528.156257750496" y="1357.7217641679067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="182.0009765625" x="5.0" y="5.3447265625">v_VerifyStoryBacklogChange</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="140.166015625" x="2295.0546906001982" y="929.63134765625"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="130.166015625" x="5.0" y="5.3447265625">v_IterationMainPage</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="145.82177734375" x="2293.6406986297125" y="1129.7954946366567"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="135.82177734375" x="5.0" y="5.3447265625">v_ExpandedStoryInfo</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="124.55712890625" x="2267.8174672929067" y="1247.7217641679067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="114.55712890625" x="5.0" y="5.3447265625">v_CreateNewTask</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="160.2880859375" x="2392.158734809028" y="1357.7217641679067"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="150.2880859375" x="5.0" y="5.3447265625">VerifyNewTaskCreation</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="163.95703125" x="755.971484375" y="455.8525390625"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="153.95703125" x="5.0" y="5.3447265625">v_AgilefantLandingPage</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="144.7236328125" x="765.58818359375" y="565.8525390625"/>
+          <y:Fill color="#FFCC00" color2="#FFFF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="134.7236328125" x="5.0" y="5.3447265625">v_EmptyBacklogPage</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="1" offsetY="1"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n3">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="0.0" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="653.59375" x="-655.5937269422743" y="24.946875000000077">e_init / num_of_iterations = 0; num_of_stories = 0; num_of_backlog_stories = 0; num_of_iteration_stories = 0;</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n3" target="n1">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="0.0" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="89.8046875" x="2.0000230577256843" y="36.92031250000002">e_StartBrowser</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n4" target="n5">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-79.96471058238635" sy="22.92626953125" tx="-36.9886474609375" ty="-22.92626953125">
+            <y:Point x="915.9833052906295" y="736.705078125"/>
+            <y:Point x="533.8184953962053" y="906.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="156.525390625" x="-369.98930441910466" y="90.93359375">e_ClickCreateNewIteration</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n5" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="36.9886474609375" sy="-22.92626953125" tx="-63.971768465909065" ty="22.92626953125">
+            <y:Point x="607.7957903180803" y="906.705078125"/>
+            <y:Point x="931.9762474071067" y="736.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="157.50390625" x="-6.071405898988132" y="-134.01497395833337">e_ClickCancelNewIteration</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n2" target="n21">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-15.519287109375" sy="22.92626953125" tx="0.0" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="138.859375" x="-140.85943666659455" y="24.946874999999977">e_InputUserCredentials</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n1" target="n2">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="0.0" ty="-22.92626953125"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="95.353515625" x="2.0000230577256843" y="36.92031250000002">e_EnterBaseURL</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n5" target="n6">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="22.92626953125" tx="-42.5126953125" ty="-22.92626953125">
+            <y:Point x="570.8071428571428" y="977.5576171875"/>
+            <y:Point x="162.51270151289683" y="1106.8692251054067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="323.048828125" x="-514.7319533496358" y="51.94204828171496">e_InputIterationDetailsAndSave / num_of_iterations++</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n4" target="n2">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="43.980590820312386" sy="-22.92626953125" tx="15.519287109375" ty="22.92626953125">
+            <y:Point x="1039.9285714285713" y="455.8525390625"/>
+            <y:Point x="868.9887315538194" y="390.8525390625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="57.244140625" x="-89.12512859300239" y="-272.75634765625">e_Logout</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n4" target="n7">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-15.992942116477252" sy="22.92626953125" tx="-31.7232666015625" ty="-15.0">
+            <y:Point x="979.9550737565386" y="736.705078125"/>
+            <y:Point x="932.5013365730407" y="906.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="278.359375" x="-157.43859688301404" y="-0.9047650137322307">e_ClickCreateNewStory [num_of_iterations &gt; 0]</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n7" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="31.7232666015625" sy="-15.0" tx="1.4210854715202004E-14" ty="22.92626953125"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="138.0625" x="-50.77234545117142" y="-17.202644031869568">e_ClickCancelNewStory</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n6" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="42.5126953125" sy="-22.92626953125" tx="-47.978826349431756" ty="22.92626953125">
+            <y:Point x="247.53809213789683" y="1106.8692251054067"/>
+            <y:Point x="764.7845238095238" y="977.5576171875"/>
+            <y:Point x="764.7845238095238" y="906.705078125"/>
+            <y:Point x="947.9691895235841" y="736.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="518.2464378720238" y="-175.06291297154053"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n7" target="n8">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-42.29768880208333" sy="15.0" tx="0.0" ty="-22.92626953125">
+            <y:Point x="921.9269143725198" y="977.5576171875"/>
+            <y:Point x="637.0297619047619" y="1106.8692251054067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="552.783203125" x="-294.65053312250143" y="-0.9047650137322307">e_InputStoryDetailsWithoutIterationAndSave / num_of_stories++; num_of_backlog_stories++;
+</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n7" target="n9">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="42.29768880208333" sy="15.0" tx="-54.55419921875" ty="-22.92626953125">
+            <y:Point x="1006.5222919766866" y="969.63134765625"/>
+            <y:Point x="1038.5628642733134" y="1106.8692251054067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="462.15625" x="-249.3370158698972" y="-0.9047650137322307">e_InputStoryDetailsAndSave / num_of_stories++; num_of_iteration_stories++;</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n8" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-71.31917317708337" sy="-22.92626953125" tx="-31.985884232954504" ty="22.92626953125">
+            <y:Point x="565.7105887276786" y="1106.8692251054067"/>
+            <y:Point x="780.7777777777778" y="977.5576171875"/>
+            <y:Point x="780.7777777777778" y="906.705078125"/>
+            <y:Point x="963.9621316400613" y="736.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="198.23741319444446" y="-175.06291455140422"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n9" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="54.55419921875" sy="-22.92626953125" tx="15.992942116477252" ty="22.92626953125">
+            <y:Point x="1147.6714285714286" y="914.63134765625"/>
+            <y:Point x="1011.9409579894931" y="736.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="-70.30089567394862" y="-305.990489612926"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n4" target="n10">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="31.985884232954547" sy="22.92626953125" tx="-47.58447265625" ty="-15.0">
+            <y:Point x="1027.9339001059705" y="736.705078125"/>
+            <y:Point x="1567.8948924231152" y="914.63134765625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n11" target="n10">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-49.8204345703125" sy="-15.0" tx="-71.376708984375" ty="15.0">
+            <y:Point x="1492.046232096354" y="1119.7954946366567"/>
+            <y:Point x="1544.1026560949902" y="974.63134765625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="122.224609375" x="-98.95674937095669" y="-98.55564007902058">e_ClickStoryTreeTab</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n10" target="n11">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-23.792236328125" sy="15.0" tx="49.8204345703125" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="130.48046875" x="1.9999826710168236" y="76.01566724020336">e_ClickLeafStoriesTab</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n10" target="n12">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="23.792236328125" sy="15.0" tx="-43.033203125" ty="-15.0">
+            <y:Point x="1639.2716014074902" y="974.63134765625"/>
+            <y:Point x="1924.5410032242064" y="1114.7954946366567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="352.41015625" x="-194.46398817737486" y="-0.9047650137322307">e_ClickBacklogStoryFromTree [num_of_backlog_stories &gt; 1]</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n12" target="n13">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-57.377604166666686" sy="15.0" tx="-36.888671875" ty="-15.0">
+            <y:Point x="1910.1966021825397" y="1169.7954946366567"/>
+            <y:Point x="1893.7970424107143" y="1232.7217641679067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="110.107421875" x="-128.0743705061202" y="21.698326667906713">e_DblClickBacklog</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n13" target="n12">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="36.888671875" sy="-15.0" tx="0.0" ty="15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="164.79296875" x="-64.13755071085234" y="-17.18515366609222">c_ClickBacklogPopupCancel</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n13" target="n14">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="-48.000244140625" ty="-15.0">
+            <y:Point x="1930.6857142857143" y="1287.7217641679067"/>
+            <y:Point x="2008.1576923673115" y="1342.7217641679067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="528.068359375" x="-282.2930393616507" y="-0.9048026036380179">e_InputIterationDetailsAndSave / num_of_backlog_stories--; num_of_iteration_stories++;
+</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n12" target="n10">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="43.033203125" sy="-15.0" tx="71.376708984375" ty="15.0">
+            <y:Point x="2010.6074094742064" y="1114.7954946366567"/>
+            <y:Point x="1686.8560740637402" y="974.63134765625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="113.587890625" x="-153.75490653725683" y="-109.12313726516004">e_ClickClosePopup</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n14" target="n12">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="48.000244140625" sy="-15.0" tx="57.37760416666674" ty="15.0">
+            <y:Point x="2104.1581806485615" y="1347.7217641679067"/>
+            <y:Point x="2124.4630952380953" y="1262.7217641679067"/>
+            <y:Point x="2024.9518105158731" y="1174.7954946366567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="37.6592571924607" y="-102.21097508990579"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n11" target="n15">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-66.42724609375" sy="15.0" tx="-47.33056640625" ty="-15.0">
+            <y:Point x="1475.4394205729166" y="1169.7954946366567"/>
+            <y:Point x="1447.205544704861" y="1232.7217641679067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="320.51171875" x="-335.89645927622814" y="21.698326667906713">e_DblClickBacklogName [num_of_backlog_stories &gt; 0]</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e25" source="n15" target="n11">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="47.33056640625" sy="-15.0" tx="0.0" ty="15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="96.296875" x="1.9999765019704228" y="-32.64857274615588">e_ClickNowhere</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n15" target="n16">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="-48.000244140625" ty="-15.0">
+            <y:Point x="1494.536111111111" y="1287.7217641679067"/>
+            <y:Point x="1576.156501891121" y="1342.7217641679067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="442.50390625" x="-342.9509349969146" y="37.15035303509421">e_SelectIteration / num_of_backlog_stories--; num_of_iteration_stories++;</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n16" target="n11">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="48.000244140625" sy="-15.0" tx="66.42724609375" ty="15.0">
+            <y:Point x="1672.156990172371" y="1347.7217641679067"/>
+            <y:Point x="1709.1976190476191" y="1262.7217641679067"/>
+            <y:Point x="1608.2939127604166" y="1174.7954946366567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="45.21444518074168" y="-136.3296429111299"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n4" target="n17">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="63.97176846590909" sy="22.92626953125" tx="-35.04150390625" ty="-15.0">
+            <y:Point x="1059.919784338925" y="736.705078125"/>
+            <y:Point x="2330.0961945064482" y="914.63134765625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="268.685546875" x="456.74142690525036" y="110.67607421875005">e_ClickIterationName [num_of_iterations &gt; 0]</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n17" target="n18">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-35.04150390625" sy="15.0" tx="-36.4554443359375" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="332.6640625" x="-244.5058847913133" y="76.01566724020358">e_ClickStoryExpandArrow [num_of_iteration_stories &gt; 0]</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n18" target="n17">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="36.4554443359375" sy="-15.0" tx="35.04150390625" ty="15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="134.130859375" x="0.7374370734651166" y="-94.10689135354687">e_ClickStoryFoldArrow</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n18" target="n19">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-36.4554443359375" sy="15.0" tx="0.0" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="134.927734375" x="-85.72283096645378" y="-0.9048256996823056">e_ClickCreateNewTask</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n19" target="n20">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="-40.072021484375" ty="-15.0">
+            <y:Point x="2330.0960317460317" y="1287.7217641679067"/>
+            <y:Point x="2432.230756293403" y="1342.7217641679067"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="163.533203125" x="-115.11497922935905" y="37.15035303509421">e_InputTaskDetailsAndSave</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e33" source="n20" target="n18">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="40.072021484375" sy="-15.0" tx="36.4554443359375" ty="15.0">
+            <y:Point x="2512.374603174603" y="1262.7217641679067"/>
+            <y:Point x="2403.007031637525" y="1174.7954946366567"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="-51.985412474353325" y="-142.7473004847534"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e34" source="n21" target="n22">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="0.0" ty="-15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="111.865234375" x="-113.8652465820312" y="24.946874999999977">e_ClickBacklogTab</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n22" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="15.0" tx="-43.9805908203125" ty="-22.92626953125">
+            <y:Point x="837.95" y="605.8525390625"/>
+            <y:Point x="951.9674250527033" y="660.8525390625"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="118.3515625" x="-64.06761782998478" y="37.150390625">e_ClickProjectName</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n10" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="47.58447265625" sy="-15.0" tx="47.97882634943182" ty="22.92626953125">
+            <y:Point x="1663.0638377356152" y="914.63134765625"/>
+            <y:Point x="1043.9268422224477" y="736.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n17" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="35.04150390625" sy="-15.0" tx="79.96471058238636" ty="22.92626953125">
+            <y:Point x="2400.1792023189482" y="914.63134765625"/>
+            <y:Point x="1075.9127264554022" y="736.705078125"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" height="18.1328125" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="118.3515625" x="-644.4207480138234" y="-124.99692267032913">e_ClickProjectName</y:EdgeLabel>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e38" source="n8" target="n7">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="71.31917317708334" sy="-22.92626953125" tx="0.0" ty="15.0">
+            <y:Point x="708.3489350818453" y="1106.8692251054067"/>
+            <y:Point x="964.2246031746032" y="977.5576171875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFF99" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasText="false" height="4.0" lineColor="#FFFF00" modelName="free" modelPosition="anywhere" preferredPlacement="center" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="-153.73828415643595" y="-35.98402196490588"/>
+          <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
+</graphml>

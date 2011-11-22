@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MBTINIT SYSTEM "mbt_setup.dtd" >
-<MBTINIT EXECUTOR="java:com.groupzero.Agilefant" EXTENDED="true">
-  <MODEL PATH="model/Agilefant.graphml"/>
+<MBTINIT EXECUTOR="java:com.groupzero.AgilefantTest" EXTENDED="true">
+  <MODEL PATH="model/SubGraphs"/>
   <CLASS PATH="bin"/>
-  <CLASS PATH="lib/selenium-java-client-driver.jar"/>
+  <CLASS PATH="lib/selenium-java-2.13.0.jar"/>
   <CLASS PATH="lib/poi-3.6-20091214.jar"/>
+  <CLASS PATH="lib/apache-mime4j-0.6.jar"/>			
+  <CLASS PATH="lib/jcommander-1.13.jar"/>
+  <CLASS PATH="lib/bsh-1.3.0.jar"/>				
+  <CLASS PATH="lib/jna-3.3.0.jar"/>
+  <CLASS PATH="lib/cglib-nodep-2.1_3.jar"/>			
+  <CLASS PATH="lib/json-20080701.jar"/>
+  <CLASS PATH="lib/commons-codec-1.4.jar"/>			
+  <CLASS PATH="lib/junit-dep-4.10.jar"/>
+  <CLASS PATH="lib/commons-collections-3.2.1.jar"/>		
+  <CLASS PATH="lib/nekohtml-1.9.15.jar"/>
+  <CLASS PATH="lib/commons-exec-1.1.jar"/>			
+  <CLASS PATH="lib/commons-io-2.0.1.jar"/>			
+  <CLASS PATH="lib/operadriver-v0.8.jar"/>
+  <CLASS PATH="lib/commons-jxpath-1.3.jar"/>			
+  <CLASS PATH="lib/poi-3.6-20091214.jar"/>
+  <CLASS PATH="lib/commons-lang-2.6.jar"/>			
+  <CLASS PATH="lib/protobuf-java-2.4.1.jar"/>
+  <CLASS PATH="lib/commons-logging-1.1.1.jar"/>		
+  <CLASS PATH="lib/sac-1.3.jar"/>
+  <CLASS PATH="lib/cssparser-0.9.5.jar"/>			
+  <CLASS PATH="lib/guava-10.0.1.jar"/>			
+  <CLASS PATH="lib/selenium-java-2.13.0.jar"/>
+  <CLASS PATH="lib/hamcrest-all-1.1.jar"/>			
+  <CLASS PATH="lib/selenium-server-standalone-2.13.0.jar"/>
+  <CLASS PATH="lib/htmlunit-2.9.jar"/>			
+  <CLASS PATH="lib/serializer-2.7.1.jar"/>
+  <CLASS PATH="lib/htmlunit-core-js-2.9.jar"/>		
+  <CLASS PATH="lib/testng-6.0.1-nobsh-noguice.jar"/>
+  <CLASS PATH="lib/httpclient-4.1.2.jar"/>			
+  <CLASS PATH="lib/xalan-2.7.1.jar"/>
+  <CLASS PATH="lib/httpcore-4.1.3.jar"/>			
+  <CLASS PATH="lib/xercesImpl-2.9.1.jar"/>
+  <CLASS PATH="lib/httpmime-4.1.2.jar"/>			
+  <CLASS PATH="lib/xml-apis-1.3.04.jar"/>
   <GENERATOR TYPE="RANDOM">
     <CONDITION TYPE="EDGE_COVERAGE" VALUE="90"/>
   </GENERATOR>

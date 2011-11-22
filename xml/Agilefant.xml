@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MBTINIT SYSTEM "mbt_setup.dtd" >
-<MBTINIT EXTENDED="true">
+<MBTINIT EXECUTOR="java:com.groupzero.Agilefant" EXTENDED="true">
   <MODEL PATH="model/Agilefant.graphml"/>
-  <GENERATOR TYPE="SHORTEST_NON_OPTIMIZED">
-     <CONDITION TYPE="EDGE_COVERAGE" VALUE="100"/>
+  <CLASS PATH="bin"/>
+  <CLASS PATH="lib/selenium-java-client-driver.jar"/>
+  <CLASS PATH="lib/poi-3.6-20091214.jar"/>
+  <GENERATOR TYPE="RANDOM">
+    <CONDITION TYPE="EDGE_COVERAGE" VALUE="90"/>
   </GENERATOR>
 </MBTINIT>

@@ -3453,3 +3453,1311 @@ Unvisited Edges:  2
 Unvisited Vertices: 1
 Test sequence length:  80
 Execution time: 153 seconds
+2011-11-20 22:04:18,963 [main] INFO  - Done merging
+2011-11-20 22:04:20,133 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-20 22:04:20,135 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,135 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-20 22:04:20,135 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,135 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-20 22:04:20,135 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,136 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-20 22:04:20,136 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,136 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-20 22:04:20,136 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,137 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-20 22:04:20,137 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,139 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-20 22:04:20,139 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:20,141 [main] INFO  - Edge: 'e_InputIterationDetailsAndSave', INDEX=30 
+2011-11-20 22:04:20,141 [main] INFO  - Vertex: 'v_VerifyIterationCreation', INDEX=7  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:20,142 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:20,147 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:20,147 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:20,148 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-20 22:04:20,148 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:20,149 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:20,151 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-20 22:04:20,151 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,151 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,153 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:04:20,153 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,154 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-20 22:04:20,154 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,156 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-20 22:04:20,156 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,157 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:04:20,157 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,159 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:20,160 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,163 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:20,163 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,177 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:20,179 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,184 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:20,185 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,188 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:04:20,189 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,190 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-20 22:04:20,190 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,191 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-20 22:04:20,191 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,192 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-20 22:04:20,193 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,205 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,206 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-20 22:04:20,206 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,207 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:04:20,207 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,208 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:20,208 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,233 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:20,233 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,234 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-20 22:04:20,234 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,234 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-20 22:04:20,234 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,236 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:20,236 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,239 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:20,239 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,240 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-20 22:04:20,240 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:20,241 [main] INFO  - Edge: 'e_SelectIteration', INDEX=50 
+2011-11-20 22:04:20,241 [main] INFO  - Vertex: 'v_VerifyStoryBacklogChange', INDEX=17  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,241 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,243 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:20,243 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,256 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:20,259 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,261 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:20,261 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,264 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-20 22:04:20,264 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,265 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,267 [main] INFO  - Edge: 'e_Logout', INDEX=31 
+2011-11-20 22:04:20,267 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,268 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-20 22:04:20,269 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,269 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-20 22:04:20,270 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,270 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-20 22:04:20,270 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,272 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:20,273 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,507 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:20,507 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,509 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:20,509 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,510 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-20 22:04:20,510 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,515 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:20,515 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,587 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:20,588 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,591 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-20 22:04:20,591 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,592 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-20 22:04:20,592 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:20,595 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:20,595 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:35,275 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Requirement: Login is not tested.
+Coverage Edges: 33/39 => 84%
+Coverage Vertices: 20/23 => 86%
+Unvisited Edges:  6
+Unvisited Vertices: 3
+Test sequence length:  56
+Execution time: 16 seconds
+2011-11-20 22:04:37,881 [main] INFO  - Done merging
+2011-11-20 22:04:37,997 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-20 22:04:37,998 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:37,998 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-20 22:04:37,999 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:37,999 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-20 22:04:37,999 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,000 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-20 22:04:38,000 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,000 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-20 22:04:38,001 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,001 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-20 22:04:38,001 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,005 [main] INFO  - Edge: 'e_Logout', INDEX=31 
+2011-11-20 22:04:38,011 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,012 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-20 22:04:38,012 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,014 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-20 22:04:38,014 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,015 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-20 22:04:38,015 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,016 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,017 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,020 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:38,021 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,030 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-20 22:04:38,030 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,031 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-20 22:04:38,031 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,033 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,033 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,035 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:38,035 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,036 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-20 22:04:38,036 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:04:38,040 [main] INFO  - Edge: 'e_InputIterationDetailsAndSave', INDEX=30 
+2011-11-20 22:04:38,040 [main] INFO  - Vertex: 'v_VerifyIterationCreation', INDEX=7  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,041 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,043 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:04:38,043 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,044 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:04:38,044 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,046 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,046 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,050 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:38,051 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,054 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:38,054 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,055 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:38,055 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,057 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:04:38,057 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,082 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:04:38,082 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,084 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:38,084 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:04:38,084 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-20 22:04:38,084 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,086 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,090 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:04:38,091 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,092 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-20 22:04:38,092 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,093 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-20 22:04:38,093 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,094 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:04:38,096 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,097 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:38,097 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,097 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-20 22:04:38,097 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,099 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,099 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,105 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:38,105 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,111 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:38,111 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,112 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:38,112 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,113 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:38,113 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,136 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-20 22:04:38,137 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,137 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,144 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,144 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,154 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:38,154 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,155 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-20 22:04:38,155 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:04:38,157 [main] INFO  - Edge: 'e_SelectIteration', INDEX=50 
+2011-11-20 22:04:38,157 [main] INFO  - Vertex: 'v_VerifyStoryBacklogChange', INDEX=17  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,160 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,161 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:38,161 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,170 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:38,170 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,171 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:04:38,171 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,171 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-20 22:04:38,172 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,172 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,176 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-20 22:04:38,176 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,177 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,177 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,182 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:04:38,182 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,183 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:04:38,183 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,184 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-20 22:04:38,184 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,184 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-20 22:04:38,184 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,184 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-20 22:04:38,184 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,185 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,186 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-20 22:04:38,186 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,187 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:04:38,187 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,189 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:04:38,189 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,210 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:04:38,210 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,216 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-20 22:04:38,216 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,231 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-20 22:04:38,232 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:38,240 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:04:38,240 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:04:42,836 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Requirement: Login is not tested.
+Coverage Edges: 33/39 => 84%
+Coverage Vertices: 20/23 => 86%
+Unvisited Edges:  6
+Unvisited Vertices: 3
+Test sequence length:  68
+Execution time: 4 seconds
+2011-11-20 22:06:31,915 [main] WARN  - /Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/xml/Agileft.xml (No such file or directory)
+2011-11-20 22:06:31,919 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-20 22:06:31,919 [Thread-2] INFO  - 
+2011-11-20 22:07:40,562 [main] WARN  - /Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/xml/Agileft.xml (No such file or directory)
+2011-11-20 22:07:40,564 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-20 22:07:40,564 [Thread-2] INFO  - 
+2011-11-20 22:10:02,158 [main] INFO  - Done merging
+2011-11-20 22:10:02,698 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-20 22:10:02,698 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,699 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-20 22:10:02,699 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,699 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-20 22:10:02,699 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,700 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-20 22:10:02,700 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,700 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-20 22:10:02,700 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,701 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-20 22:10:02,701 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,703 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-20 22:10:02,703 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-20 22:10:02,704 [main] INFO  - Edge: 'e_InputIterationDetailsAndSave', INDEX=30 
+2011-11-20 22:10:02,704 [main] INFO  - Vertex: 'v_VerifyIterationCreation', INDEX=7  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,706 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,707 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:02,707 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,708 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:10:02,708 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,709 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:10:02,709 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,711 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:02,711 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,712 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:10:02,712 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,716 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:10:02,716 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,722 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:02,722 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,726 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:02,726 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,727 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:10:02,727 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,728 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-20 22:10:02,728 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,729 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-20 22:10:02,730 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-20 22:10:02,730 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,731 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,732 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:02,733 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,742 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:02,742 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,743 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:10:02,743 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,744 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-20 22:10:02,745 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,758 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-20 22:10:02,759 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,762 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:10:02,762 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,763 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:02,763 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,767 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:10:02,767 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,768 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-20 22:10:02,768 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-20 22:10:02,769 [main] INFO  - Edge: 'e_SelectIteration', INDEX=50 
+2011-11-20 22:10:02,769 [main] INFO  - Vertex: 'v_VerifyStoryBacklogChange', INDEX=17  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,769 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,770 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:10:02,770 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,771 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:02,772 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,772 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:10:02,773 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,773 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-20 22:10:02,773 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,775 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:02,775 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,781 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:02,781 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,782 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-20 22:10:02,782 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,783 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-20 22:10:02,783 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,789 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-20 22:10:02,790 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,790 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-20 22:10:02,791 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,791 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-20 22:10:02,791 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,791 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-20 22:10:02,791 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,793 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,793 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-20 22:10:02,793 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,794 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-20 22:10:02,794 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:02,795 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:02,796 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,302 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:10:03,302 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,357 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:10:03,358 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,382 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:03,382 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,385 [main] INFO  - Edge: 'e_Logout', INDEX=31 
+2011-11-20 22:10:03,385 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,386 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-20 22:10:03,386 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,386 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-20 22:10:03,387 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,387 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-20 22:10:03,387 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,389 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:03,389 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,400 [main] INFO  - Edge: '', INDEX=60 
+2011-11-20 22:10:03,404 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,407 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-20 22:10:03,407 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,408 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-20 22:10:03,408 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,408 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,420 [main] INFO  - Edge: '', INDEX=39 
+2011-11-20 22:10:03,420 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,466 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-20 22:10:03,466 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,468 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-20 22:10:03,468 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,468 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-20 22:10:03,468 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:03,472 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-20 22:10:03,472 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-20 22:10:14,476 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Requirement: Login is not tested.
+Coverage Edges: 33/39 => 84%
+Coverage Vertices: 20/23 => 86%
+Unvisited Edges:  6
+Unvisited Vertices: 3
+Test sequence length:  66
+Execution time: 12 seconds
+2011-11-21 22:24:21,393 [main] INFO  - Done merging
+2011-11-21 22:24:21,830 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-21 22:24:21,831 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,832 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-21 22:24:21,832 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,832 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-21 22:24:21,833 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,833 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-21 22:24:21,833 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,833 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-21 22:24:21,834 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,834 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-21 22:24:21,834 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,839 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:24:21,839 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:24:21,841 [main] INFO  - Edge: 'e_InputIterationDetailsAndSave', INDEX=30 
+2011-11-21 22:24:21,841 [main] INFO  - Vertex: 'v_VerifyIterationCreation', INDEX=7  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,842 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,844 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:21,844 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,845 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:24:21,845 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,848 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:24:21,848 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,849 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:21,849 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,850 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:24:21,850 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,855 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-21 22:24:21,855 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,855 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,861 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:24:21,861 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,862 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:24:21,862 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,864 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:21,864 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,865 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:24:21,865 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,866 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:24:21,866 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,866 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-21 22:24:21,866 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,868 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:24:21,868 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,940 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:21,945 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,964 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:24:21,964 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,973 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:24:21,975 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:21,987 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:21,987 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:22,003 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:22,004 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:22,006 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:24:22,006 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:22,006 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-21 22:24:22,006 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:22,012 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:24:22,012 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:24:22,013 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-21 22:24:22,013 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,013 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,019 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:22,019 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,023 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:22,023 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,031 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:24:22,032 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,033 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-21 22:24:22,033 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,034 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-21 22:24:22,034 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,035 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:24:22,035 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,036 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:22,036 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,042 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:24:22,043 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,043 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:24:22,044 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:24:22,309 [main] INFO  - Edge: 'e_SelectIteration', INDEX=50 
+2011-11-21 22:24:22,309 [main] INFO  - Vertex: 'v_VerifyStoryBacklogChange', INDEX=17  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,311 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,311 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:24:22,311 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,312 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:22,312 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,313 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:24:22,313 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,313 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-21 22:24:22,313 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,313 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-21 22:24:22,314 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,315 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-21 22:24:22,315 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,315 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,315 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-21 22:24:22,315 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,316 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:24:22,316 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,317 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:22,317 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,325 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:22,356 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,376 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:24:22,376 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,379 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-21 22:24:22,379 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,379 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,381 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-21 22:24:22,381 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,382 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:22,382 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,397 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:24:22,398 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,399 [main] INFO  - Edge: 'e_Logout', INDEX=31 
+2011-11-21 22:24:22,399 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,400 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-21 22:24:22,400 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,400 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-21 22:24:22,400 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,401 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-21 22:24:22,401 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:24:22,402 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:24:22,402 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,497 [main] INFO  - Done merging
+2011-11-21 22:25:59,790 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-21 22:25:59,794 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,795 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-21 22:25:59,795 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,795 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-21 22:25:59,795 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,795 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-21 22:25:59,795 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,796 [main] INFO  - Edge: 'e_ClickBacklogTab', INDEX=58 
+2011-11-21 22:25:59,796 [main] INFO  - Vertex: 'v_EmptyBacklogPage', INDEX=23  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,796 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=59 
+2011-11-21 22:25:59,797 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,799 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:25:59,799 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,879 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:25:59,879 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,881 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:25:59,881 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,883 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-21 22:25:59,885 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,892 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:25:59,892 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:25:59,902 [main] INFO  - Edge: 'e_InputIterationDetailsAndSave', INDEX=30 
+2011-11-21 22:25:59,902 [main] INFO  - Vertex: 'v_VerifyIterationCreation', INDEX=7  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:25:59,903 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:25:59,905 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,905 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:25:59,906 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-21 22:25:59,906 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:25:59,907 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:25:59,914 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,914 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=1;num_of_iterations=1;num_of_iteration_stories=0;
+2011-11-21 22:25:59,915 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-21 22:25:59,915 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,916 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,917 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:25:59,917 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,918 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-21 22:25:59,918 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,918 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-21 22:25:59,918 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,919 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:25:59,919 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,920 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,921 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=2;num_of_iterations=1;num_of_iteration_stories=1;
+2011-11-21 22:25:59,921 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-21 22:25:59,922 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,922 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,943 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,944 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,944 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-21 22:25:59,945 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,972 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,972 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=3;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,973 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-21 22:25:59,973 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=2;num_of_stories=4;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,973 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=2;num_of_stories=4;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,988 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,988 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=2;num_of_stories=4;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,989 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-21 22:25:59,989 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=2;num_of_stories=4;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,990 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:25:59,990 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=2;num_of_stories=4;num_of_iterations=1;num_of_iteration_stories=2;
+2011-11-21 22:25:59,991 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-21 22:25:59,991 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,991 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,992 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:25:59,992 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,993 [main] INFO  - Edge: 'e_ClickBacklogStoryFromTree', INDEX=42 
+2011-11-21 22:25:59,993 [main] INFO  - Vertex: 'v_BacklogStoryInfoPopup', INDEX=13  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,994 [main] INFO  - Edge: 'e_ClickClosePopup', INDEX=46 
+2011-11-21 22:25:59,994 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,995 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:25:59,995 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,995 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:25:59,995 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,996 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-21 22:25:59,996 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,997 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:25:59,997 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:25:59,999 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-21 22:25:59,999 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:26:00,001 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:26:00,001 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=2;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=3;
+2011-11-21 22:26:00,002 [main] INFO  - Edge: 'e_SelectIteration', INDEX=50 
+2011-11-21 22:26:00,002 [main] INFO  - Vertex: 'v_VerifyStoryBacklogChange', INDEX=17  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,003 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,004 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:26:00,004 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,004 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:26:00,005 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,005 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:26:00,006 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,006 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-21 22:26:00,006 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,014 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:26:00,018 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,021 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-21 22:26:00,022 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,026 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:26:00,026 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,027 [main] INFO  - Edge: 'e_ClickCancelNewIteration', INDEX=27 
+2011-11-21 22:26:00,027 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,037 [main] INFO  - Edge: 'e_ClickCreateNewIteration', INDEX=26 
+2011-11-21 22:26:00,037 [main] INFO  - Vertex: 'v_CreateNewIteration', INDEX=6  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=1;num_of_iteration_stories=4;
+2011-11-21 22:26:00,038 [main] INFO  - Edge: 'e_InputIterationDetailsAndSave', INDEX=30 
+2011-11-21 22:26:00,038 [main] INFO  - Vertex: 'v_VerifyIterationCreation', INDEX=7  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,038 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,039 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:26:00,039 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,040 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:26:00,040 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,041 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:26:00,041 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,042 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:26:00,051 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,052 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:26:00,052 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=5;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,053 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-21 22:26:00,053 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=2;num_of_stories=6;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,058 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=2;num_of_stories=6;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,059 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:26:00,059 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=2;num_of_stories=6;num_of_iterations=2;num_of_iteration_stories=4;
+2011-11-21 22:26:00,059 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-21 22:26:00,060 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,060 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,061 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:26:00,061 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,062 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:26:00,062 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,063 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:26:00,063 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,063 [main] INFO  - Edge: 'e_ClickBacklogStoryFromTree', INDEX=42 
+2011-11-21 22:26:00,064 [main] INFO  - Vertex: 'v_BacklogStoryInfoPopup', INDEX=13  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,064 [main] INFO  - Edge: 'e_DblClickBacklog', INDEX=43 
+2011-11-21 22:26:00,064 [main] INFO  - Vertex: 'v_StoryBacklogPopup', INDEX=14  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,064 [main] INFO  - Edge: 'c_ClickBacklogPopupCancel', INDEX=44 
+2011-11-21 22:26:00,064 [main] INFO  - Vertex: 'v_BacklogStoryInfoPopup', INDEX=13  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,065 [main] INFO  - Edge: 'e_ClickClosePopup', INDEX=46 
+2011-11-21 22:26:00,065 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,065 [main] INFO  - Edge: 'e_ClickBacklogStoryFromTree', INDEX=42 
+2011-11-21 22:26:00,065 [main] INFO  - Vertex: 'v_BacklogStoryInfoPopup', INDEX=13  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,232 [main] INFO  - Edge: 'e_ClickClosePopup', INDEX=46 
+2011-11-21 22:26:00,232 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,233 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:26:00,233 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,234 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:26:00,234 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,234 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:26:00,234 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,235 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:26:00,235 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,242 [main] INFO  - Edge: 'e_ClickNowhere', INDEX=49 
+2011-11-21 22:26:00,243 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,253 [main] INFO  - Edge: 'e_DblClickBacklogName', INDEX=48 
+2011-11-21 22:26:00,253 [main] INFO  - Vertex: 'v_BacklogSelectionAvailable', INDEX=16  DATA: num_of_backlog_stories=2;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=5;
+2011-11-21 22:26:00,258 [main] INFO  - Edge: 'e_SelectIteration', INDEX=50 
+2011-11-21 22:26:00,259 [main] INFO  - Vertex: 'v_VerifyStoryBacklogChange', INDEX=17  DATA: num_of_backlog_stories=1;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=6;
+2011-11-21 22:26:00,260 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=6;
+2011-11-21 22:26:00,261 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:26:00,261 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=6;
+2011-11-21 22:26:00,273 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:26:00,273 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=6;
+2011-11-21 22:26:00,274 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:26:00,274 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=7;num_of_iterations=2;num_of_iteration_stories=6;
+2011-11-21 22:26:00,278 [main] INFO  - Edge: 'e_InputStoryDetailsAndSave', INDEX=36 
+2011-11-21 22:26:00,278 [main] INFO  - Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,279 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,280 [main] INFO  - Edge: 'e_ClickIterationName', INDEX=52 
+2011-11-21 22:26:00,280 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,281 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-21 22:26:00,281 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,281 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-21 22:26:00,281 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,281 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-21 22:26:00,281 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,282 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,282 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-21 22:26:00,282 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,282 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-21 22:26:00,282 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,283 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,283 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-21 22:26:00,283 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,283 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-21 22:26:00,283 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,283 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,284 [main] INFO  - Edge: 'e_ClickCreateNewTask', INDEX=55 
+2011-11-21 22:26:00,284 [main] INFO  - Vertex: 'v_CreateNewTask', INDEX=20  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,284 [main] INFO  - Edge: 'e_InputTaskDetailsAndSave', INDEX=56 
+2011-11-21 22:26:00,284 [main] INFO  - Vertex: 'VerifyNewTaskCreation', INDEX=21  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,284 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,285 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-21 22:26:00,285 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,285 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-21 22:26:00,285 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,285 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-21 22:26:00,286 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,286 [main] INFO  - Edge: 'e_ClickStoryExpandArrow', INDEX=53 
+2011-11-21 22:26:00,286 [main] INFO  - Vertex: 'v_ExpandedStoryInfo', INDEX=19  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,286 [main] INFO  - Edge: 'e_ClickStoryFoldArrow', INDEX=54 
+2011-11-21 22:26:00,286 [main] INFO  - Vertex: 'v_IterationMainPage', INDEX=18  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,287 [main] INFO  - Edge: 'e_ClickProjectName', INDEX=61 
+2011-11-21 22:26:00,287 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,288 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:26:00,288 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,288 [main] INFO  - Edge: 'e_ClickCancelNewStory', INDEX=33 
+2011-11-21 22:26:00,288 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,301 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:26:00,301 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,301 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:26:00,301 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,303 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:26:00,303 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,303 [main] INFO  - Edge: 'e_ClickLeafStoriesTab', INDEX=41 
+2011-11-21 22:26:00,303 [main] INFO  - Vertex: 'v_ProjectMainPageLeafStories', INDEX=12  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,304 [main] INFO  - Edge: 'e_ClickStoryTreeTab', INDEX=40 
+2011-11-21 22:26:00,304 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,305 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:26:00,305 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,306 [main] INFO  - Edge: '', INDEX=39 
+2011-11-21 22:26:00,306 [main] INFO  - Vertex: 'v_ProjectMainPageStoryTree', INDEX=11  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,308 [main] INFO  - Edge: '', INDEX=60 
+2011-11-21 22:26:00,308 [main] INFO  - Vertex: 'v_AgilefantProjectBacklog', INDEX=5 REQUIREMENT: 'Login' DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,310 [main] INFO  - Edge: 'e_ClickCreateNewStory', INDEX=32 
+2011-11-21 22:26:00,310 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=1;num_of_stories=8;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,316 [main] INFO  - Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35 
+2011-11-21 22:26:00,316 [main] INFO  - Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9  DATA: num_of_backlog_stories=2;num_of_stories=9;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,317 [main] INFO  - Vertex: 'v_CreateNewStory', INDEX=8  DATA: num_of_backlog_stories=2;num_of_stories=9;num_of_iterations=2;num_of_iteration_stories=7;
+2011-11-21 22:26:00,707 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Edge not reached: Edge: 'e_Logout', INDEX=31
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Requirement: Login is not tested.
+Coverage Edges: 36/39 => 92%
+Coverage Vertices: 22/23 => 95%
+Unvisited Edges:  3
+Unvisited Vertices: 1
+Test sequence length:  123
+Execution time: 1 seconds
+2011-11-21 22:29:17,967 [main] INFO  - Done merging
+2011-11-21 22:29:18,187 [main] ERROR - Could not load class: com.groupzero.Agilefant.
+ Current class path is: mbt-2.2-beta15.jar
+2011-11-21 22:29:18,192 [main] ERROR - java.lang.RuntimeException: Could not load class: com.groupzero.Agilefant.
+ Current class path is: mbt-2.2-beta15.jar
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:702)
+	at org.tigris.mbt.Util.loadXml(Util.java:503)
+	at org.tigris.mbt.Util.loadMbtFromXml(Util.java:325)
+	at org.tigris.mbt.CLI.RunCommandXml(CLI.java:924)
+	at org.tigris.mbt.CLI.run(CLI.java:236)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+Caused by: java.lang.ClassNotFoundException: com.groupzero.Agilefant
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:691)
+	... 5 more
+
+2011-11-21 22:29:19,210 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=34
+Edge not reached: Edge: '', INDEX=37
+Edge not reached: Edge: '', INDEX=38
+Edge not reached: Edge: '', INDEX=39
+Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: '', INDEX=51
+Edge not reached: Edge: '', INDEX=57
+Edge not reached: Edge: '', INDEX=60
+Edge not reached: Edge: '', INDEX=62
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickBacklogTab', INDEX=58
+Edge not reached: Edge: 'e_ClickCancelNewIteration', INDEX=27
+Edge not reached: Edge: 'e_ClickCancelNewStory', INDEX=33
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_ClickCreateNewIteration', INDEX=26
+Edge not reached: Edge: 'e_ClickCreateNewStory', INDEX=32
+Edge not reached: Edge: 'e_ClickCreateNewTask', INDEX=55
+Edge not reached: Edge: 'e_ClickIterationName', INDEX=52
+Edge not reached: Edge: 'e_ClickLeafStoriesTab', INDEX=41
+Edge not reached: Edge: 'e_ClickNowhere', INDEX=49
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=59
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=61
+Edge not reached: Edge: 'e_ClickStoryExpandArrow', INDEX=53
+Edge not reached: Edge: 'e_ClickStoryFoldArrow', INDEX=54
+Edge not reached: Edge: 'e_ClickStoryTreeTab', INDEX=40
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_DblClickBacklogName', INDEX=48
+Edge not reached: Edge: 'e_EnterBaseURL', INDEX=29
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=30
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Edge not reached: Edge: 'e_InputStoryDetailsAndSave', INDEX=36
+Edge not reached: Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35
+Edge not reached: Edge: 'e_InputTaskDetailsAndSave', INDEX=56
+Edge not reached: Edge: 'e_InputUserCredentials', INDEX=28
+Edge not reached: Edge: 'e_Logout', INDEX=31
+Edge not reached: Edge: 'e_SelectIteration', INDEX=50
+Edge not reached: Edge: 'e_StartBrowser', INDEX=25
+Edge not reached: Edge: 'e_init', INDEX=24
+Vertex not reached: Vertex: 'VerifyNewTaskCreation', INDEX=21
+Vertex not reached: Vertex: 'v_AgilefantLandingPage', INDEX=22
+Vertex not reached: Vertex: 'v_AgilefantProjectBacklog', INDEX=5
+Vertex not reached: Vertex: 'v_BacklogSelectionAvailable', INDEX=16
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_BrowserStarted', INDEX=2
+Vertex not reached: Vertex: 'v_BrowserStopped', INDEX=4
+Vertex not reached: Vertex: 'v_CreateNewIteration', INDEX=6
+Vertex not reached: Vertex: 'v_CreateNewStory', INDEX=8
+Vertex not reached: Vertex: 'v_CreateNewTask', INDEX=20
+Vertex not reached: Vertex: 'v_EmptyBacklogPage', INDEX=23
+Vertex not reached: Vertex: 'v_ExpandedStoryInfo', INDEX=19
+Vertex not reached: Vertex: 'v_IterationMainPage', INDEX=18
+Vertex not reached: Vertex: 'v_Login', INDEX=3
+Vertex not reached: Vertex: 'v_ProjectMainPageLeafStories', INDEX=12
+Vertex not reached: Vertex: 'v_ProjectMainPageStoryTree', INDEX=11
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyIterationCreation', INDEX=7
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=17
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10
+Requirement: Login is not tested.
+Coverage Edges: 0/39 => 0%
+Coverage Vertices: 1/23 => 4%
+Unvisited Edges:  39
+Unvisited Vertices: 22
+Test sequence length:  0
+Execution time: 1 seconds
+2011-11-21 22:32:39,710 [main] INFO  - Done merging
+2011-11-21 22:32:41,402 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-21 22:32:41,403 [main] INFO  - Edge: e_init
+2011-11-21 22:32:41,552 [main] ERROR - InvocationTargetException for: Edge: 'e_init', INDEX=24 : Connection refused
+2011-11-21 22:32:41,555 [main] ERROR - java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:859)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:797)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:704)
+	at org.tigris.mbt.Util.loadXml(Util.java:503)
+	at org.tigris.mbt.Util.loadMbtFromXml(Util.java:325)
+	at org.tigris.mbt.CLI.RunCommandXml(CLI.java:924)
+	at org.tigris.mbt.CLI.run(CLI.java:236)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+Caused by: com.thoughtworks.selenium.SeleniumException: Connection refused
+	at com.thoughtworks.selenium.HttpCommandProcessor.executeCommandOnServlet(HttpCommandProcessor.java:107)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:86)
+	at com.thoughtworks.selenium.DefaultSelenium.setSpeed(DefaultSelenium.java:299)
+	at com.groupzero.Agilefant.e_init(Agilefant.java:253)
+	... 12 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:385)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1014)
+	at com.thoughtworks.selenium.HttpCommandProcessor.getOutputStreamWriter(HttpCommandProcessor.java:134)
+	at com.thoughtworks.selenium.HttpCommandProcessor.getCommandResponseAsString(HttpCommandProcessor.java:161)
+	at com.thoughtworks.selenium.HttpCommandProcessor.executeCommandOnServlet(HttpCommandProcessor.java:104)
+	... 15 more
+
+2011-11-21 22:32:41,559 [main] ERROR - java.lang.RuntimeException: InvocationTargetException.
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:867)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:797)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:704)
+	at org.tigris.mbt.Util.loadXml(Util.java:503)
+	at org.tigris.mbt.Util.loadMbtFromXml(Util.java:325)
+	at org.tigris.mbt.CLI.RunCommandXml(CLI.java:924)
+	at org.tigris.mbt.CLI.run(CLI.java:236)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+Caused by: com.thoughtworks.selenium.SeleniumException: Connection refused
+	at com.thoughtworks.selenium.HttpCommandProcessor.executeCommandOnServlet(HttpCommandProcessor.java:107)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:86)
+	at com.thoughtworks.selenium.DefaultSelenium.setSpeed(DefaultSelenium.java:299)
+	at com.groupzero.Agilefant.e_init(Agilefant.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:859)
+	... 7 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:385)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1014)
+	at com.thoughtworks.selenium.HttpCommandProcessor.getOutputStreamWriter(HttpCommandProcessor.java:134)
+	at com.thoughtworks.selenium.HttpCommandProcessor.getCommandResponseAsString(HttpCommandProcessor.java:161)
+	at com.thoughtworks.selenium.HttpCommandProcessor.executeCommandOnServlet(HttpCommandProcessor.java:104)
+	... 15 more
+
+2011-11-21 22:32:41,582 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=34
+Edge not reached: Edge: '', INDEX=37
+Edge not reached: Edge: '', INDEX=38
+Edge not reached: Edge: '', INDEX=39
+Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: '', INDEX=51
+Edge not reached: Edge: '', INDEX=57
+Edge not reached: Edge: '', INDEX=60
+Edge not reached: Edge: '', INDEX=62
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickBacklogTab', INDEX=58
+Edge not reached: Edge: 'e_ClickCancelNewIteration', INDEX=27
+Edge not reached: Edge: 'e_ClickCancelNewStory', INDEX=33
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_ClickCreateNewIteration', INDEX=26
+Edge not reached: Edge: 'e_ClickCreateNewStory', INDEX=32
+Edge not reached: Edge: 'e_ClickCreateNewTask', INDEX=55
+Edge not reached: Edge: 'e_ClickIterationName', INDEX=52
+Edge not reached: Edge: 'e_ClickLeafStoriesTab', INDEX=41
+Edge not reached: Edge: 'e_ClickNowhere', INDEX=49
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=59
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=61
+Edge not reached: Edge: 'e_ClickStoryExpandArrow', INDEX=53
+Edge not reached: Edge: 'e_ClickStoryFoldArrow', INDEX=54
+Edge not reached: Edge: 'e_ClickStoryTreeTab', INDEX=40
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_DblClickBacklogName', INDEX=48
+Edge not reached: Edge: 'e_EnterBaseURL', INDEX=29
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=30
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Edge not reached: Edge: 'e_InputStoryDetailsAndSave', INDEX=36
+Edge not reached: Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35
+Edge not reached: Edge: 'e_InputTaskDetailsAndSave', INDEX=56
+Edge not reached: Edge: 'e_InputUserCredentials', INDEX=28
+Edge not reached: Edge: 'e_Logout', INDEX=31
+Edge not reached: Edge: 'e_SelectIteration', INDEX=50
+Edge not reached: Edge: 'e_StartBrowser', INDEX=25
+Vertex not reached: Vertex: 'VerifyNewTaskCreation', INDEX=21
+Vertex not reached: Vertex: 'v_AgilefantLandingPage', INDEX=22
+Vertex not reached: Vertex: 'v_AgilefantProjectBacklog', INDEX=5
+Vertex not reached: Vertex: 'v_BacklogSelectionAvailable', INDEX=16
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_BrowserStarted', INDEX=2
+Vertex not reached: Vertex: 'v_CreateNewIteration', INDEX=6
+Vertex not reached: Vertex: 'v_CreateNewStory', INDEX=8
+Vertex not reached: Vertex: 'v_CreateNewTask', INDEX=20
+Vertex not reached: Vertex: 'v_EmptyBacklogPage', INDEX=23
+Vertex not reached: Vertex: 'v_ExpandedStoryInfo', INDEX=19
+Vertex not reached: Vertex: 'v_IterationMainPage', INDEX=18
+Vertex not reached: Vertex: 'v_Login', INDEX=3
+Vertex not reached: Vertex: 'v_ProjectMainPageLeafStories', INDEX=12
+Vertex not reached: Vertex: 'v_ProjectMainPageStoryTree', INDEX=11
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyIterationCreation', INDEX=7
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=17
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10
+Requirement: Login is not tested.
+Coverage Edges: 1/39 => 2%
+Coverage Vertices: 2/23 => 8%
+Unvisited Edges:  38
+Unvisited Vertices: 21
+Test sequence length:  1
+Execution time: 1 seconds
+2011-11-21 22:34:48,723 [main] INFO  - Done merging
+2011-11-21 22:34:50,446 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-21 22:34:50,447 [main] INFO  - Edge: e_init
+2011-11-21 22:34:51,068 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:34:51,068 [main] INFO  - Vertex: v_BrowserStopped
+2011-11-21 22:34:51,163 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-21 22:34:51,163 [main] INFO  - Edge: e_StartBrowser
+2011-11-21 22:35:06,811 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:35:06,811 [main] INFO  - Vertex: v_BrowserStarted
+2011-11-21 22:35:08,447 [main] INFO  - Found browser with title: 
+2011-11-21 22:35:08,448 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-21 22:35:08,448 [main] INFO  - Edge: e_EnterBaseURL
+2011-11-21 22:35:12,198 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:35:12,198 [main] INFO  - Vertex: v_Login
+2011-11-21 22:35:15,328 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-21 22:35:15,329 [main] INFO  - Edge: e_InputUserCredentials
+2011-11-21 22:35:16,894 [main] INFO  - Username: admin
+2011-11-21 22:35:18,440 [main] INFO  - Password: secret
+2011-11-21 22:35:20,009 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:35:20,009 [main] ERROR - NoSuchMethodException for: Vertex: 'v_AgilefantLandingPage', INDEX=22
+2011-11-21 22:35:20,014 [main] ERROR - java.lang.RuntimeException: NoSuchMethodException.
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:874)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:803)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:704)
+	at org.tigris.mbt.Util.loadXml(Util.java:503)
+	at org.tigris.mbt.Util.loadMbtFromXml(Util.java:325)
+	at org.tigris.mbt.CLI.RunCommandXml(CLI.java:924)
+	at org.tigris.mbt.CLI.run(CLI.java:236)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+Caused by: java.lang.NoSuchMethodException: com.groupzero.Agilefant.v_AgilefantLandingPage()
+	at java.lang.Class.getMethod(Class.java:1605)
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:858)
+	... 7 more
+
+2011-11-21 22:35:20,058 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=34
+Edge not reached: Edge: '', INDEX=37
+Edge not reached: Edge: '', INDEX=38
+Edge not reached: Edge: '', INDEX=39
+Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: '', INDEX=51
+Edge not reached: Edge: '', INDEX=57
+Edge not reached: Edge: '', INDEX=60
+Edge not reached: Edge: '', INDEX=62
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickBacklogTab', INDEX=58
+Edge not reached: Edge: 'e_ClickCancelNewIteration', INDEX=27
+Edge not reached: Edge: 'e_ClickCancelNewStory', INDEX=33
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_ClickCreateNewIteration', INDEX=26
+Edge not reached: Edge: 'e_ClickCreateNewStory', INDEX=32
+Edge not reached: Edge: 'e_ClickCreateNewTask', INDEX=55
+Edge not reached: Edge: 'e_ClickIterationName', INDEX=52
+Edge not reached: Edge: 'e_ClickLeafStoriesTab', INDEX=41
+Edge not reached: Edge: 'e_ClickNowhere', INDEX=49
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=59
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=61
+Edge not reached: Edge: 'e_ClickStoryExpandArrow', INDEX=53
+Edge not reached: Edge: 'e_ClickStoryFoldArrow', INDEX=54
+Edge not reached: Edge: 'e_ClickStoryTreeTab', INDEX=40
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_DblClickBacklogName', INDEX=48
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=30
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Edge not reached: Edge: 'e_InputStoryDetailsAndSave', INDEX=36
+Edge not reached: Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35
+Edge not reached: Edge: 'e_InputTaskDetailsAndSave', INDEX=56
+Edge not reached: Edge: 'e_Logout', INDEX=31
+Edge not reached: Edge: 'e_SelectIteration', INDEX=50
+Vertex not reached: Vertex: 'VerifyNewTaskCreation', INDEX=21
+Vertex not reached: Vertex: 'v_AgilefantProjectBacklog', INDEX=5
+Vertex not reached: Vertex: 'v_BacklogSelectionAvailable', INDEX=16
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_CreateNewIteration', INDEX=6
+Vertex not reached: Vertex: 'v_CreateNewStory', INDEX=8
+Vertex not reached: Vertex: 'v_CreateNewTask', INDEX=20
+Vertex not reached: Vertex: 'v_EmptyBacklogPage', INDEX=23
+Vertex not reached: Vertex: 'v_ExpandedStoryInfo', INDEX=19
+Vertex not reached: Vertex: 'v_IterationMainPage', INDEX=18
+Vertex not reached: Vertex: 'v_ProjectMainPageLeafStories', INDEX=12
+Vertex not reached: Vertex: 'v_ProjectMainPageStoryTree', INDEX=11
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyIterationCreation', INDEX=7
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=17
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10
+Requirement: Login is not tested.
+Coverage Edges: 4/39 => 10%
+Coverage Vertices: 5/23 => 21%
+Unvisited Edges:  35
+Unvisited Vertices: 18
+Test sequence length:  4
+Execution time: 31 seconds
+2011-11-21 22:36:39,133 [main] INFO  - Done merging
+2011-11-21 22:36:40,472 [main] INFO  - Edge: 'e_init', INDEX=24 
+2011-11-21 22:36:40,472 [main] INFO  - Edge: e_init
+2011-11-21 22:36:40,571 [main] INFO  - Vertex: 'v_BrowserStopped', INDEX=4  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:36:40,572 [main] INFO  - Vertex: v_BrowserStopped
+2011-11-21 22:36:40,582 [main] INFO  - Edge: 'e_StartBrowser', INDEX=25 
+2011-11-21 22:36:40,583 [main] INFO  - Edge: e_StartBrowser
+2011-11-21 22:36:51,826 [main] INFO  - Vertex: 'v_BrowserStarted', INDEX=2  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:36:51,826 [main] INFO  - Vertex: v_BrowserStarted
+2011-11-21 22:36:52,278 [main] INFO  - Found browser with title: 
+2011-11-21 22:36:52,278 [main] INFO  - Edge: 'e_EnterBaseURL', INDEX=29 
+2011-11-21 22:36:52,278 [main] INFO  - Edge: e_EnterBaseURL
+2011-11-21 22:36:52,980 [main] INFO  - Vertex: 'v_Login', INDEX=3  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:36:52,980 [main] INFO  - Vertex: v_Login
+2011-11-21 22:36:53,828 [main] INFO  - Edge: 'e_InputUserCredentials', INDEX=28 
+2011-11-21 22:36:53,828 [main] INFO  - Edge: e_InputUserCredentials
+2011-11-21 22:36:54,255 [main] INFO  - Username: admin
+2011-11-21 22:36:54,717 [main] INFO  - Password: secret
+2011-11-21 22:36:55,171 [main] INFO  - Vertex: 'v_AgilefantLandingPage', INDEX=22  DATA: num_of_backlog_stories=0;num_of_stories=0;num_of_iterations=0;num_of_iteration_stories=0;
+2011-11-21 22:36:55,172 [main] ERROR - NoSuchMethodException for: Vertex: 'v_AgilefantLandingPage', INDEX=22
+2011-11-21 22:36:55,174 [main] ERROR - java.lang.RuntimeException: NoSuchMethodException.
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:874)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:803)
+	at org.tigris.mbt.ModelBasedTesting.executePath(ModelBasedTesting.java:704)
+	at org.tigris.mbt.Util.loadXml(Util.java:503)
+	at org.tigris.mbt.Util.loadMbtFromXml(Util.java:325)
+	at org.tigris.mbt.CLI.RunCommandXml(CLI.java:924)
+	at org.tigris.mbt.CLI.run(CLI.java:236)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+Caused by: java.lang.NoSuchMethodException: com.groupzero.Agilefant.v_AgilefantLandingPage()
+	at java.lang.Class.getMethod(Class.java:1605)
+	at org.tigris.mbt.ModelBasedTesting.executeMethod(ModelBasedTesting.java:858)
+	... 7 more
+
+2011-11-21 22:36:55,847 [Thread-2] INFO  - Edge not reached: Edge: '', INDEX=34
+Edge not reached: Edge: '', INDEX=37
+Edge not reached: Edge: '', INDEX=38
+Edge not reached: Edge: '', INDEX=39
+Edge not reached: Edge: '', INDEX=47
+Edge not reached: Edge: '', INDEX=51
+Edge not reached: Edge: '', INDEX=57
+Edge not reached: Edge: '', INDEX=60
+Edge not reached: Edge: '', INDEX=62
+Edge not reached: Edge: 'c_ClickBacklogPopupCancel', INDEX=44
+Edge not reached: Edge: 'e_ClickBacklogStoryFromTree', INDEX=42
+Edge not reached: Edge: 'e_ClickBacklogTab', INDEX=58
+Edge not reached: Edge: 'e_ClickCancelNewIteration', INDEX=27
+Edge not reached: Edge: 'e_ClickCancelNewStory', INDEX=33
+Edge not reached: Edge: 'e_ClickClosePopup', INDEX=46
+Edge not reached: Edge: 'e_ClickCreateNewIteration', INDEX=26
+Edge not reached: Edge: 'e_ClickCreateNewStory', INDEX=32
+Edge not reached: Edge: 'e_ClickCreateNewTask', INDEX=55
+Edge not reached: Edge: 'e_ClickIterationName', INDEX=52
+Edge not reached: Edge: 'e_ClickLeafStoriesTab', INDEX=41
+Edge not reached: Edge: 'e_ClickNowhere', INDEX=49
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=59
+Edge not reached: Edge: 'e_ClickProjectName', INDEX=61
+Edge not reached: Edge: 'e_ClickStoryExpandArrow', INDEX=53
+Edge not reached: Edge: 'e_ClickStoryFoldArrow', INDEX=54
+Edge not reached: Edge: 'e_ClickStoryTreeTab', INDEX=40
+Edge not reached: Edge: 'e_DblClickBacklog', INDEX=43
+Edge not reached: Edge: 'e_DblClickBacklogName', INDEX=48
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=30
+Edge not reached: Edge: 'e_InputIterationDetailsAndSave', INDEX=45
+Edge not reached: Edge: 'e_InputStoryDetailsAndSave', INDEX=36
+Edge not reached: Edge: 'e_InputStoryDetailsWithoutIterationAndSave', INDEX=35
+Edge not reached: Edge: 'e_InputTaskDetailsAndSave', INDEX=56
+Edge not reached: Edge: 'e_Logout', INDEX=31
+Edge not reached: Edge: 'e_SelectIteration', INDEX=50
+Vertex not reached: Vertex: 'VerifyNewTaskCreation', INDEX=21
+Vertex not reached: Vertex: 'v_AgilefantProjectBacklog', INDEX=5
+Vertex not reached: Vertex: 'v_BacklogSelectionAvailable', INDEX=16
+Vertex not reached: Vertex: 'v_BacklogStoryInfoPopup', INDEX=13
+Vertex not reached: Vertex: 'v_CreateNewIteration', INDEX=6
+Vertex not reached: Vertex: 'v_CreateNewStory', INDEX=8
+Vertex not reached: Vertex: 'v_CreateNewTask', INDEX=20
+Vertex not reached: Vertex: 'v_EmptyBacklogPage', INDEX=23
+Vertex not reached: Vertex: 'v_ExpandedStoryInfo', INDEX=19
+Vertex not reached: Vertex: 'v_IterationMainPage', INDEX=18
+Vertex not reached: Vertex: 'v_ProjectMainPageLeafStories', INDEX=12
+Vertex not reached: Vertex: 'v_ProjectMainPageStoryTree', INDEX=11
+Vertex not reached: Vertex: 'v_StoryBacklogPopup', INDEX=14
+Vertex not reached: Vertex: 'v_VerifyIterationCreation', INDEX=7
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=15
+Vertex not reached: Vertex: 'v_VerifyStoryBacklogChange', INDEX=17
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToBacklog', INDEX=9
+Vertex not reached: Vertex: 'v_VerifyStoryCreationToIteration', INDEX=10
+Requirement: Login is not tested.
+Coverage Edges: 4/39 => 10%
+Coverage Vertices: 5/23 => 21%
+Unvisited Edges:  35
+Unvisited Vertices: 18
+Test sequence length:  4
+Execution time: 16 seconds
+2011-11-22 11:25:26,079 [main] INFO  - Done merging
+2011-11-22 11:25:27,254 [Thread-3] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 11:25:27,256 [Thread-3] INFO  - 
+2011-11-22 11:54:19,899 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_AgilefantProjectBacklog', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromStoryTree.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromLeafStories.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 11:54:20,727 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 11:54:20,727 [Thread-2] INFO  - 
+2011-11-22 11:56:08,918 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_AgilefantProjectBacklog', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromStoryTree.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromLeafStories.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 11:56:09,740 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 11:56:09,753 [Thread-2] INFO  - 
+2011-11-22 11:56:31,336 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 11:56:31,346 [Thread-2] INFO  - 
+2011-11-22 12:02:29,641 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:02:29,647 [Thread-2] INFO  - 
+2011-11-22 12:02:40,439 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_ProjectMainPageStoryTree', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromStoryTree.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromLeafStories.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 12:02:41,239 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:02:41,240 [Thread-2] INFO  - 
+2011-11-22 12:03:32,406 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_ProjectMainPageStoryTree', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromStoryTree.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIterationFromLeafStories.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 12:03:36,991 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:03:36,991 [Thread-2] INFO  - 
+2011-11-22 12:13:11,452 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_AgilefantProjectBacklog', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/CreateNewIteration.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIteration.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 12:13:12,735 [Thread-3] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:13:12,736 [Thread-3] INFO  - 
+2011-11-22 12:16:30,534 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_AgilefantProjectBacklog', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/CreateNewIteration.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIteration.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 12:16:31,652 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:16:31,652 [Thread-2] INFO  - 
+2011-11-22 12:17:57,187 [main] ERROR - java.lang.RuntimeException: Found 2 subgraphs using the same name: 'v_AgilefantProjectBacklog', they are defined in files: '/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/CreateNewIteration.graphml', and :'/Users/mikko/Documents/Dropbox/studies/Opinnot 2011-2012/Testing/agilefant_mbt/model/SubGraphs/ChangeStoryIteration.graphml'
+	at org.tigris.mbt.io.GraphML.findMotherAndSubgraphs(GraphML.java:466)
+	at org.tigris.mbt.io.GraphML.mergeAllGraphs(GraphML.java:391)
+	at org.tigris.mbt.io.GraphML.load(GraphML.java:104)
+	at org.tigris.mbt.ModelBasedTesting.readGraph(ModelBasedTesting.java:464)
+	at org.tigris.mbt.CLI.RunCommandMerge(CLI.java:906)
+	at org.tigris.mbt.CLI.run(CLI.java:224)
+	at org.tigris.mbt.CLI.main(CLI.java:137)
+
+2011-11-22 12:17:58,076 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:17:58,076 [Thread-2] INFO  - 
+2011-11-22 12:37:23,355 [main] INFO  - Done merging
+2011-11-22 12:37:24,243 [Thread-2] WARN  - Trying to retrieve verbose statistics without specifying machine
+2011-11-22 12:37:24,243 [Thread-2] INFO  - 

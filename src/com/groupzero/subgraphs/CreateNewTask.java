@@ -2,6 +2,6 @@ package com.groupzero.subgraphs;
 
 import com.groupzero.TestBaseClass;
 
-public class CreateNewStory extends TestBaseClass {
+public class CreateNewTask extends TestBaseClass {
 
 }

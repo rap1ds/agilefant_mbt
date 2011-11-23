@@ -2,6 +2,7 @@ package com.groupzero.subgraphs;
 
 import org.tigris.mbt.Util;
 
+import com.groupzero.TestBaseClass;
 import com.thoughtworks.selenium.DefaultSelenium;
 
 public class OpenProjectBacklog extends TestBaseClass {
@@ -18,7 +19,7 @@ public class OpenProjectBacklog extends TestBaseClass {
 
 		// Should work for any machine where the firefox executable is in the path.
 		//browser = new DefaultSelenium("localhost", 4444, "*iexplore", url);
-		selenium = new DefaultSelenium("localhost", 4444, "*firefox", url);
+		s = new DefaultSelenium("localhost", 4444, "*firefox", url);
 		normalSpeed();
 		sheetName = "Product";
 		rowIndex = 1;
@@ -36,12 +37,12 @@ public class OpenProjectBacklog extends TestBaseClass {
 	 * will take care of it, and present the result at the end of the test in the mbt.log file.
 	 */
 	public void v_BrowserStopped() {
-		if (selenium == null) {
+		if (s == null) {
 			fail("browser object should not be null. It should have been assigned at e_Init");
 		}
 		String title = null;
 		try {
-			title = selenium.getTitle();
+			title = s.getTitle();
 		} catch (Exception e) {
 			passRequirement();
 			return;
@@ -55,11 +56,11 @@ public class OpenProjectBacklog extends TestBaseClass {
 	 * This method implements the Edge 'e_StartBrowser'
 	 */
 	public void e_StartBrowser() {
-		if (selenium == null) {
+		if (s == null) {
 			log.error("browser object should not be null. It should have been assigned at e_Init");
 			Util.AbortIf(true, "browser object should not be null. It should have been assigned at e_Init");
 		}
-		selenium.start();
+		s.start();
 	}
 	
 	/**
@@ -75,7 +76,7 @@ public class OpenProjectBacklog extends TestBaseClass {
 	public void v_BrowserStarted() {
 		String title = null;
 		try {
-			title = selenium.getTitle();
+			title = s.getTitle();
 		} catch (Exception e) {
 			log.error("Found no open browser");
 			failRequirement();
@@ -89,7 +90,7 @@ public class OpenProjectBacklog extends TestBaseClass {
 	 * This method implements the Edge 'e_EnterBaseURL'
 	 */
 	public void e_EnterBaseURL() {
-		selenium.open(url);
+		s.open(url);
 	}
 	
 	/**
@@ -108,25 +109,29 @@ public class OpenProjectBacklog extends TestBaseClass {
 		passRequirement();
 	}
 	
+	public void e_Logout() {
+		s.click("link=Logout");
+	}
+	
 	/**
 	 * This method implements the Edge 'e_InputUserCredentials'
 	 */
 	public void e_InputUserCredentials() {
 		// Input username admin
-		selenium.type("j_username", username);
-		log.info("Username: "+username);
+		s.type("j_username", USERNAME);
+		log.info("Username: "+USERNAME);
 		// Input password password
-		selenium.type("j_password", password);
-		log.info("Password: "+password);
+		s.type("j_password", PASSWORD);
+		log.info("Password: "+PASSWORD);
 		// Click Log in
-		selenium.click("//input[@type='submit']");
+		s.click("//input[@type='submit']");
 	}
 	
 	/**
 	 * This method implements the Edge 'e_ClickLogout'
 	 */
 	public void e_ClickLogout() {
-		selenium.click("link=regexp:Logout"); 
+		s.click("link=regexp:Logout"); 
 	}
 
 	public void v_AgilefantLandingPage() {
@@ -142,7 +147,6 @@ public class OpenProjectBacklog extends TestBaseClass {
 	}
 
 	public void v_AgilefantProjectBacklog() {
-		waitPageLoad();
 		assertBodyText("Project: Zero Sugar Project");
 		passRequirement();
 	}
@@ -151,17 +155,11 @@ public class OpenProjectBacklog extends TestBaseClass {
 	 * Select project and open backlog tab
 	 */
 	public void e_ClickBacklogTab() {
-		selenium.click("link=Backlogs");
+		s.click("link=Backlogs");
 	}
 
 	public void e_ClickProjectName() {
-		slowSpeed();
-		selenium.click("link=Products");
-		normalSpeed();
-		
-		selenium.click("link=" + PRODUCT_NAME);
-		waitPageLoad();
-		selenium.click("link=" + PROJECT_NAME);
+		this.openProject();
 	}
 	
 }

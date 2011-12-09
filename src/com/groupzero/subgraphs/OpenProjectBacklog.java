@@ -21,9 +21,6 @@ public class OpenProjectBacklog extends TestBaseClass {
 		//browser = new DefaultSelenium("localhost", 4444, "*iexplore", url);
 		s = new DefaultSelenium("localhost", 4444, "*firefox", url);
 		normalSpeed();
-		sheetName = "Product";
-		rowIndex = 1;
-		cellnum = 0;
 	}
 	
 	/**
@@ -148,6 +145,7 @@ public class OpenProjectBacklog extends TestBaseClass {
 
 	public void v_AgilefantProjectBacklog() {
 		assertBodyText("Project: Zero Sugar Project");
+		
 		passRequirement();
 	}
 

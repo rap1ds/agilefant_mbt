@@ -37,12 +37,6 @@ public class TestBaseClass {
 	 */
 	public static Selenium s = null;
 	
-	// Excel test data
-	public static TestData productNames = new TestData("testdata/testdata.xls");
-	public static String sheetName;
-	public static int rowIndex;
-	public static int cellnum;
-	
 	/* ................ Assertion helpers ................................ */
 	
 	public void assertTextPresent(String pattern) {
@@ -56,6 +50,9 @@ public class TestBaseClass {
 
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(body);
+		
+		log.info("Bodytext:" + body);
+		log.info("Text to find: " + regex);
 		
 		if (matcher.find() == false) {
 			fail("Body text did not contain: " + regex);
